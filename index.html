@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&family=League+Spartan&family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/home.css" />
+    <link rel="stylesheet" href="style/projects.css" />
+    <link rel="stylesheet" href="style/contact.css" />
+    <title>Moduł 1 - Praca zaliczeniowa</title>
+  </head>
+  <body>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/projects.js" defer></script>
+    <script src="scripts/about.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
+    <script src="scripts/messages.js" defer></script>
+    <div id="allView">
+      <header>
+        <div id="headerContainer">
+          <div class="headerContent">
+            <div>
+              <img
+                id="logoMobile"
+                src="media/logoMobile.png"
+                alt="ITPortfolio logo"
+              />
+              <img
+                id="logoDesktop"
+                src="media/logoDesktop.png"
+                alt="ITPortfolio logo"
+              />
+            </div>
+            <div class="headerMenu" id="">
+              <nav>
+                <ul class="linksList" id="">
+                  <li><a id="homeOne" class="menuLinks">HOME</a></li>
+                  <li>
+                    <a id="projectsOne" class="menuLinks">PROJECTS</a>
+                  </li>
+                  <li><a id="aboutOne" class="menuLinks">ABOUT</a></li>
+                  <li>
+                    <a id="contactOne" class="menuLinks">CONTACT</a>
+                  </li>
+                  <li>
+                    <a id="messagesOne" class="menuLinks">MESSAGES</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="headerMenuHamburger" id="headerMenuHamburger">
+              <nav>
+                <ul class="linksListHamburger" id="linksListHamburger">
+                  <li>
+                    <a id="homeTwo" class="menuLinks menuLinksHamburger">HOME</a>
+                  </li>
+                  <li>
+                    <a id="projectsTwo" class="menuLinks menuLinksHamburger">PROJECTS</a>
+                  </li>
+                  <li>
+                    <a id="aboutTwo" class="menuLinks menuLinksHamburger">ABOUT</a>
+                  </li>
+                  <li>
+                    <a id="contactTwo" class="menuLinks menuLinksHamburger">CONTACT</a>
+                  </li>
+                  <li>
+                    <a id="messagesTwo" class="menuLinks menuLinksHamburger">MESSAGES</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div id="hamburger" class="hamburgerContainer"></div>
+          </div>
+          <div class="headerTitle">
+            <div id="titleText">
+              <h1 id="titleTextBig">JAN KOWALSKI</h1>
+              <p id="titleTextSmall">WEB-DESIGNER</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div id="mainContainer">
+          <section id="aboutMeContainer">
+            <div id="photo"></div>
+            <div class="aboutMeArea">
+              <div class="aboutMeContent"></div>
+              <div class="mySkillsContent">
+                <h2>My Skills</h2>
+                <div class="skills"></div>
+              </div>
+            </div>
+          </section>
+          <section id="projectsContainer">
+            <div id="addProject"></div>
+            <div id="noProjects"><h2>There are no projects to display</h2></div>
+            <div class="projects"></div>
+            <div id="arrows">
+              <button id="leftArrow">
+                <img src="media/left.png" alt="left" />
+              </button>
+              <button id="rightArrow">
+                <img src="media/right.png" alt="right" />
+              </button>
+            </div>
+          </section>
+          <section id="messagesContainer">
+            <div id="messages"></div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footerContainer">
+          <div id="footerMenu">
+            <ul id="footerLinksList" class="linksList">
+              <li><a id="homeThree" class="menuLinks home">HOME</a></li>
+              <li>
+                <a id="projectsThree" class="menuLinks">PROJECTS</a>
+              </li>
+              <li><a id="aboutThree" class="menuLinks">ABOUT</a></li>
+              <li>
+                <a id="contactThree" class="menuLinks">CONTACT</a>
+              </li>
+              <li>
+                <a id="messagesThree" class="menuLinks">MESSAGES</a>
+              </li>
+            </ul>
+          </div>
+          <div id="contactFooter">
+            <div id="contactFooterText">
+              <p>jan_kowalski@gmail.com</p>
+              <p>+123 456 789</p>
+            </div>
+            <img src="media/logoFooter.png" alt="ITPortfolio logo" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

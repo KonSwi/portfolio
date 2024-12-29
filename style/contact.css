@@ -1,0 +1,72 @@
+#sendMessageButton {
+  margin: 5.25rem 0;
+}
+
+.formRow,
+.smallRow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6875rem;
+}
+#formContactContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#contactContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.625rem;
+}
+
+#formContact {
+  display: flex;
+  gap: 2.5rem;
+  width: 100%;
+  padding-top: 5.25rem;
+  flex-direction: column;
+  font-family: "League Spartan";
+  font-weight: 700;
+  line-height: 0.92rem;
+  text-align: left;
+}
+
+/* ---------- MESSAGES SIDE ---------- */
+#messages {
+  display: flex;
+  flex-direction: column;
+  gap: 5.25rem;
+  padding: 5.25rem 0.625rem;
+}
+
+#messages p {
+  font-family: "League Spartan";
+  font-weight: 700;
+  line-height: 1.0869565217rem;
+  text-align: left;
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media (min-width: 768px) {
+  #formContact {
+    width: 31.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  #formContact {
+    width: 49rem;
+  }
+  .smallRow {
+    width: 100%;
+  }
+  #formRowOne {
+    gap: 6.875rem;
+    flex-direction: row;
+  }
+}
+@media (min-width: 1280px) {
+  #formContact {
+    width: 75rem;
+  }
+}
